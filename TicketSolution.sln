@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketWebApp", "TicketWebApp\TicketWebApp.csproj", "{B09163D7-16BF-41CD-8540-96E1338EAC02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{E0158305-D7B4-4607-8B65-62D7021E347F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{9DFB574B-733E-4963-B3EA-6C9C2D7E0D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B09163D7-16BF-41CD-8540-96E1338EAC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09163D7-16BF-41CD-8540-96E1338EAC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09163D7-16BF-41CD-8540-96E1338EAC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09163D7-16BF-41CD-8540-96E1338EAC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0158305-D7B4-4607-8B65-62D7021E347F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0158305-D7B4-4607-8B65-62D7021E347F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0158305-D7B4-4607-8B65-62D7021E347F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0158305-D7B4-4607-8B65-62D7021E347F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFB574B-733E-4963-B3EA-6C9C2D7E0D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFB574B-733E-4963-B3EA-6C9C2D7E0D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFB574B-733E-4963-B3EA-6C9C2D7E0D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFB574B-733E-4963-B3EA-6C9C2D7E0D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6170DA0-E281-4022-A582-01DEC3F729D2}
+	EndGlobalSection
+EndGlobal
